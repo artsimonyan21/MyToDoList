@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.global_container {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(137, 218, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name_h3 {
+  color: white;
+}
+
+.container {
+  width: 60%;
+  height: 90%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#inputDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#inputDiv > input {
+  width: 70%;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  font-size: 20px;
+}
+.plans {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.plans > div {
+  width: 70%;
+  margin-top: 10px;
+}
+.plans > div > input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+}
+
+.redeclare_button {
+  background-color: blue;
+}
+.save_button {
+  background-color: green;
+}
+
+.plans > div > button {
+  text-align: center;
+  width: 50%;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 17px;
+  border: none;
+}
